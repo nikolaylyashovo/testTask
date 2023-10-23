@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 10px;
+  overflow: auto;
+  .header_content {
+    flex-direction: column;
+    button {
+      width: 50%;
+      padding: 16px 24px;
+      border: none;
+      font-size: 17px;
+    }
+    &__button_left {
+      background-color: #5c9baa;
+      color: #fff;
+    }
+
+    &__button_right {
+      background-color: #2e3d44;
+      color: #a9958e;
+    }
+    .active {
+      border: 1px solid red;
+    }
+  }
+}

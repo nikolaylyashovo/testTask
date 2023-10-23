@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.main {
+  background-color: rgb(212, 195, 195);
+  flex-grow: 1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  background-color: #fff;
+  width: 80%;
+  height: 80%;
+  padding: 24px;
+  position: relative;
+  flex-direction: column;
+}
+
+.container_context {
+  display: flex;
+  background-color: #fff;
+  height: 80%;
+  padding: 24px;
+  position: relative;
+}

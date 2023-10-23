@@ -1,0 +1,48 @@
+.content__item {
+  display: flex;
+  background-color: #e1e1e1;
+  align-items: center;
+  margin-top: 8px;
+  padding: 13px;
+
+  p {
+    color: #757b84;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  &__price {
+    color: #328fc6;
+    font-size: 20px;
+    font-weight: 500;
+    width: 20%;
+  }
+  &__name {
+    display: flex;
+    flex-direction: column;
+    color: #777777;
+    font-weight: 500;
+    width: 30%;
+    div {
+      font-size: 17px;
+    }
+  }
+  &__owners {
+    display: flex;
+    flex-direction: column;
+    color: #777777;
+    font-weight: 500;
+    width: 20%;
+    div {
+      font-size: 17px;
+    }
+  }
+
+  &__date {
+    font-weight: 400;
+    color: #332e2e;
+    flex-grow: 1;
+    div {
+      font-size: 16px;
+    }
+  }
+}
