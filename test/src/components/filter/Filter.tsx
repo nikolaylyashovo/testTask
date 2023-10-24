@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import './filter.scss'
-gimport {useDataContext} from "../../contexts/dataContext";
+import {useDataContext} from "../../contexts/dataContext";
 
 export const Filter = () => {
     const {setFilters} = useDataContext();
