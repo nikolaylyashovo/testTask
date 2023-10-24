@@ -3,7 +3,6 @@ import { IItem } from "../api";
 import {TypeSort} from "../hooks/useData";
 
 export interface IFilters {
-    
     isAll: boolean, 
     isNotOwners: boolean, 
     isOneOwner: boolean,  
