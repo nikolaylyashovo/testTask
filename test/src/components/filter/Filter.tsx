@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react'
 import './filter.scss'
-import { FilterItem } from './components/filterItem/FilterItem'
 import {useDataContext} from "../../contexts/dataContext";
 
 export const Filter = () => {
